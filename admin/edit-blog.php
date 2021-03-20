@@ -8,7 +8,7 @@ require_once '../vendor/autoload.php';
 $login = new App\classes\Login();
 
 if(isset($_GET["logout"])){
-    $login->adminLogout();
+    $login->logout();
 }
 $message='';
 use App\classes\blogs;
@@ -54,19 +54,16 @@ $NameQuery = category::loadCategoryName();
             <div class="card mt-3 mb-3">
                 <div class="card-title">
                     <p align="center"> <b> Edit Blog </b></p>
-                    <h4 align="center" class="alert-success"><?php echo $message?></h4>
+
                 </div>
                 <div class="card-body">
-
 
                     <form action="" method="post" enctype="multipart/form-data" name="editForm">
                         <div class="form-group row">
                             <label for="inputEmail3" class="col-sm-3 col-form-label">Category Name</label>
                             <input hidden name="blog_id" value="<?php echo $query['id']?>" >
-                            <input hidden name="category_id" value="<?php echo $query['category_id']?>" >
                             <div class="col-sm-9">
                                 <select class="form-control" name="category_id">
-
                                     <?php while($getName = mysqli_fetch_assoc($NameQuery)){ ?>
 
                                         <option value="<?php echo $getName['id'] ?>"><?php echo $getName['name'] ?></option>
@@ -129,17 +126,23 @@ $NameQuery = category::loadCategoryName();
 <?php include '../footer.php'?>
 
 <!-- Bootstrap core JavaScript -->
-<script src="../assets/js/jquery.min.js"></script>
 
-<script> document.forms['editForm'].elements['category_id'].value= '<?php echo $query['category_id']?>'; </script>
+
+
+<script src="../assets/js/jquery.js"></script>
+
 
 <script src="../assets/js/bootstrap.min.js"></script>
 
-<script src="../assets/js/tinymce/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="../assets/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
 <script>tinymce.init({selector:'.textarea'});</script>
 
 
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.forms['editForm'].elements['category_id'].value= '<?php echo $query['category_id'];?>'
+</script>
 
 </body>
 

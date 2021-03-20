@@ -141,9 +141,7 @@ class blogs
            $sql = "UPDATE blogs SET category_id='$data[category_id]',blog_title='$data[blog_title]', sdes='$data[short_description]', ldes='$data[long_description]', status='$data[status]' WHERE id = '$data[blog_id]'";
            if(mysqli_query(Database::dbConnection(),$sql))
            {
-               $message = "Successfully Updated";
-               return $message;
-
+              header('Location: manage-blog.php');
 
            } else {
                die("Query Problem".mysqli_error(Database::dbConnection()));

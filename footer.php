@@ -1,7 +1,7 @@
 
-
-<footer class="py-3 bg-dark mx-auto">
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Shuvo 2020</p>
+<!-- Footer -->
+<footer class="py-5 " id="ft">
+    <div class="container-fluid" >
+        <p class="m-0 text-center text-white">Copyright &copy; Shuvo 2021</p>
     </div>
 </footer>

@@ -8,7 +8,7 @@ require_once '../vendor/autoload.php';
 $login = new App\classes\Login();
 
 if(isset($_GET["logout"])){
-    $login->adminLogout();
+    $login->logout();
 }
 
 use App\classes\blogs;

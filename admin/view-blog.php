@@ -8,7 +8,7 @@ require_once '../vendor/autoload.php';
 $login = new App\classes\Login();
 
 if(isset($_GET["logout"])){
-    $login->adminLogout();
+    $login->logout();
 }
 
 use App\classes\blogs;
@@ -57,7 +57,7 @@ $query = blogs::getBlogInfo($id);
                             <th scope="col">Short Description</th>
                             <td scope="col"><?php echo $query['sdes'] ?></td>
                         </tr>  <tr>
-                            <th scope="col">LOng Description</th>
+                            <th scope="col">Long Description</th>
                             <td scope="col"><?php echo $query['ldes'] ?></td>
                         </tr>  <tr>
                             <th scope="col">Blog Image</th>
