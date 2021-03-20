@@ -34,9 +34,9 @@ $blogs= $display->getAllPublishedBlogs();
 
         <!-- Jumbotron Header -->
         <header class="jumbotron my-4 bg bg-image">
-              <h1 class="display-3">A Warm Welcome!</h1>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-              <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+              <h3 class="display-4">Featured!</h3>
+              <p class="lead">This is a test blog-site. Your featured content will be here.</p>
+              <a href="#" class="btn btn-primary btn-lg">Read More!</a>
 
         </header>
 
@@ -52,8 +52,8 @@ $blogs= $display->getAllPublishedBlogs();
                 <div class="card h-100 shadowbox">
                     <img class="card-img-top" style=" border-radius: 20px 20px  0px 0px;" src="app/<?php echo $result['blog_image'] ?>" alt="">
                     <div class="card-body">
-                        <h4 class="card-title"><?php echo $result['blog_title']  ?></h4>
-                        <p class="card-text"><?php  echo $result['sdes'] ?></p>
+                        <h6 class="card-title"><?php echo $result['blog_title']  ?></h6>
+                        <p  align="justify" class="card-text small"><?php  echo $result['sdes'] ?></p>
                     </div>
                     <div class="card-footer">
                         <a href="blog-details.php?id=<?php echo $result['id'] ?>" class="btn btn-primary">Read More!</a>

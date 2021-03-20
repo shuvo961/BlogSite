@@ -20,26 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d77a2ea-589c-4f0b-9692-78a1ea6192ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/classes/CommentBox.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/classes/Display.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-details.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/_112909351_mediaitem112909350.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/prothomalo-english_2021-03_2c300585-fd3f-44a5-a17a-583c7f07c352_c45b473a3fb7cc9972c221877ded5dc3_Hasina_Modi_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/prothomalo-english_2021-03_740ee9c5-5530-4fbc-b414-081e033d7b1e_prothomalo_import_media_2020_02_24_3233184d8f5f9e9c81310e6d04c59a7f_5e535c832dbb4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-student.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add-category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit-category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/manage-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/manage-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/manage-category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view-blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/classes/blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/blogs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/s.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view-student.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +92,7 @@
       <workItem from="1615991353544" duration="1037000" />
       <workItem from="1616042137487" duration="8058000" />
       <workItem from="1616213471292" duration="17086000" />
+      <workItem from="1616246768217" duration="915000" />
     </task>
     <servers />
   </component>
